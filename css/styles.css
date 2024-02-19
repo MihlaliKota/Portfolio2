@@ -1,0 +1,83 @@
+body {
+    background-color: bisque;
+}
+
+#home {
+    padding: 100px 0;
+    text-align: center;
+    background-size: 200% 200%;
+    animation: backgroundAnimation 5s infinite alternate;
+}
+  
+.home-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.home-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.profile-pic {
+    max-width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+  
+.profile-pic img {
+    max-width: 50%;
+    height: 100%;
+    width: 100%;
+    border: 5px solid #82412c;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    right: 400px;
+}
+  
+.home-text {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    left: 350px;
+    bottom: 500px;
+}
+  
+.home-text h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.home-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+  
+.contact-button,
+.cv-button {
+    display: block;
+    width: 20%;
+    margin: auto;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #762405;
+    border-radius: 5px;
+    border-color: #a3310b;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+  
+.contact-button:hover,
+.cv-button:hover {
+    background-color: #71726e;
+}
