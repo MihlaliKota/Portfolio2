@@ -262,12 +262,12 @@ main > section {
     position: absolute;
     width: 6px;
     height: 100%;
-    background: #ffff;
+    background: #82412c;
     top: 0;
     left: 50%;
     margin-left: -3px;
     z-index: -1;
-    animation: moveline 3s linear forwards;
+    animation: moveline 4s linear forwards;
 }
 
 @keyframes moveline {
