@@ -483,8 +483,8 @@ main > section {
     }
 
     .container {
-        width: 100%;
-        padding-left: 80px;
+        width: 75%;
+        padding-left: 70px;
         padding-right: 25px;
     }
 
@@ -508,6 +508,10 @@ main > section {
         border-right: 15px solid #ffffff;
         border-left: 0;
         left: -15px;
+    }
+
+    .left-container {
+        margin-left: 1.75rem;
     }
 }
 
